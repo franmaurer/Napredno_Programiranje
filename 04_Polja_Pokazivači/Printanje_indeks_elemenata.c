@@ -15,17 +15,12 @@ int main(){
    b) Vrijednosti elemenata polja s indeksom od 0 do 9
    c) Pogrešku prilikom prevođenja
 
-   Odgovor: 
+   Odgovor: b)
 
 
-
-
-
-
+------------------------------------------------------------------
+Trivijalan zadatak
+------------------------------------------------------------------
+Const kvalifikator u parametru funkcije, označava, da string program
+ne može mijenjati, funkcija mora raditi nad jednim poljem
 */
-
-
-
-
-
-
