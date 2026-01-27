@@ -51,8 +51,117 @@ int main(void){
 		}
 	}	
 	for(i=0;i<10;i++)
-		printf("%d\n, ptr[i]");
+		printf("%d\n", ptr[i]);
 	return 0;	
 }
+Zauzmi memorijski blok od 40 bytea
+Provjeri da li je uspjesjno zauzeto
+Inicijaliziraj ga
+Te printaj
+************************************************
+calloc()
+#include<stdlib.h>
+void* calloc(size_t nmemb, size_t size);
+
+Funkcija calloc() rezervira prostor duljine nmemb
+objekta od kojih je svaki velicine size
+
+Rezervirani prostor je inicijaliziran na 0
+
+Povratna vrijednost: 
+Null pokazivac ili pokazivac na alociranu memoriju
+
+
+calloc primjer: 
+#include<stdio.h>
+#include<stdlib.h>
+int main(void){
+	int* ptr, i;
+	ptr = (int*)calloc(10, sizeof(int));
+	if(ptr == NULL){
+		printf("Neuspjesna alokacija");
+		exit(-1);
+	}
+	for(i=0;i<10;i++){
+		printf("%d\n", ptr[i]);
+	}
+	return 0;
+}
+***************************************************
+Inicijaliziraj memoriju za 10 elemenata tipa int
+Za razliku od malloc, calloc automatski inicijalizira 
+memoriju na 0
+
+nakon inicijalizacije
+ptr[0] = 0.... ptr[1] = 0...... ptr[9] = 0 
+********************************************************
+free() funkcija -- #include<stdlib.h>
+void* free(void* ptr);
+
+Funkcija free() oslobađa rezervirani prostor na koji pokazuje
+pokazivac ptr
+
+Ako je ptr NULL pokazivac, nista se ne dogada
+
+Ako pokazivac ptr ne odgovara ranije vracenom pokazivacu
+ili ako je prostor bio dealociran, koristenje funkcije
+free ili realloc() je nepredvidivo ponasanje
+
+nema povratnu vrijednost (void)
+***********************************************************
+#include<stdio.h>
+#include<stdlib.h>
+int main(void){
+	int* ptr, i;
+	ptr = (int*)malloc(10*sizeof(int));
+	if(ptr == NULL){
+		printf("Neuspjesna alokacija");
+		exit(-1);
+	}else{
+		for(i=0;i<10;i++)
+			 ptr[i] = i;
+	}
+	free(ptr);
+	ptr = (int*)malloc(100*sizeof(int));
+	if(ptr == NULL){
+		printf("Neuspjesna alokacija");
+		exit(-1);
+	}
+	printf("novi pokazivac");
+	for(i=0;i<100;i++)
+		printf("%d\n", ptr[i]);
+	return 0;
+}
+************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
