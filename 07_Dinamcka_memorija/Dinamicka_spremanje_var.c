@@ -1,4 +1,3 @@
-/*
 
 #include<stdio.h>
 int main(){
@@ -13,15 +12,3 @@ int main(){
 4, broj byteove koje varijabla zauzima
 0x7fffa53aa4ec, Adresa na kojoj se nalazi varijabla a
 8, broj byteove adrese na kojoj varijabla a
-
-
-
-
-
-
-
-
-
-
-
-*/
