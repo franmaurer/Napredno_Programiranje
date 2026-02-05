@@ -1,4 +1,4 @@
-/*
+
 Teorijska pitanja s ulaznih kolokvija za ovaj dio gradiva
 -------------------------------------------------------------------
 1.  int_16t predstavlja:
@@ -129,4 +129,3 @@ Teorijska pitanja s ulaznih kolokvija za ovaj dio gradiva
 	read/write naredbu preko neko druge read/write naredbe,
 	u asemblerskom kodu.
 
-*/
