@@ -1,4 +1,4 @@
-/*
+
 1. Memorija za spremanje neke varijable, će biti alocirana prilikom:
 
 	Odaberite jedan ili više odgovora:
@@ -72,4 +72,4 @@ exter int x; ------> samo navodi kompajleru da je varijabla negdje
 
    Odgovor: b)
 ---------------------------------------------------------------
-*/
+/**/
