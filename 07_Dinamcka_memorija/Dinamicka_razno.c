@@ -1,4 +1,4 @@
-/*
+
 #include<stdio.h>
 int main(){
 	int i;
@@ -15,4 +15,4 @@ Objasnjenje: static int a = 5
 a se ne brise nakon izvrsavanja bloka
 zivi dok traje program
 ******************************************
-*/
+
