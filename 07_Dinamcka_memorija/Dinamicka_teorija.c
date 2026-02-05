@@ -1,4 +1,3 @@
-/*
 
 Slobodnom memorijom upravlja operacijski sustav
 *******************************************************
@@ -224,22 +223,3 @@ for(i=0;i<brojRedaka;i++){
 free(k=0;k<brojRedaka;k++)
 	free(mat[k]);
 free(mat); //dealociranje memorije na polje pokazivaca redaka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
