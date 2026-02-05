@@ -1,4 +1,3 @@
-/*
 Nul matrica
 ***********************************************************
 void NulMat(double** mat, int brojRedaka, int brojStupaca){
@@ -53,11 +52,3 @@ jer funkcija free() ne mijenja njegovu vrijednost
 
 Oslobodena memorija se ne smije koristiti
 *******************************************************
-
-
-
-
-
-
-
-*/
