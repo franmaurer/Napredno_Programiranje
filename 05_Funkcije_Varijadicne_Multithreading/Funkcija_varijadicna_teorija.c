@@ -1,4 +1,4 @@
-/*
+
 	Dozvoljena je deklaracija funkcije s neodređenim varijablama
 --------------------------------------------------------------------------------------------------------
 	Potrebno je uključiti datoteku #include<stdarg.h>
@@ -113,4 +113,4 @@
 --------------------------------------------------------------------------------------------------------
 	Koristiti: Rijekto, dobro dokumentirati i preferirati varijante s va_list API
 --------------------------------------------------------------------------------------------------------
-*/
+
