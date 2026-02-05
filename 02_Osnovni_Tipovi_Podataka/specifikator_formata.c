@@ -1,4 +1,3 @@
-/*
 #include<stdio.h>
 int main(){
 	unsigned int a = -7;
@@ -6,6 +5,7 @@ int main(){
 		
 	return 0;
 }
+/*
 	Što će se ispisati
 	a) -7
 	b) 7
@@ -20,16 +20,4 @@ int main(){
 2. Kada se sprema negativni broj u unsigned
 	2^n - abs(taj_broj), gdje je n broj bitova
 	tog tipa podatak
-	
-
-
-
-
-
-
-
-
-
-
-
 */
