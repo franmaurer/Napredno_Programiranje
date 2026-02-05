@@ -1,4 +1,4 @@
-/* Sto ce se ispisati nakon sto se izvrsi sljedeci program
+ Sto ce se ispisati nakon sto se izvrsi sljedeci program
 
 #include<stdio.h>
 #inlcude<stdlib.h>
@@ -38,11 +38,3 @@ Program dinamički alocira memoriju za jednu strukturu,
 pristupa njezinim članovima pomoću operatora ->,
 ali bi trebao provjeriti povratnu vrijednost malloc 
 i osloboditi memoriju pomoću free.
-
-
-
-
-
-
-
-*/
