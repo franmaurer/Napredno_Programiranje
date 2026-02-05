@@ -1,4 +1,4 @@
-/*
+
 Sto ce se ispisati na ekranu
 
 #include<stdio.h>
@@ -11,7 +11,7 @@ int main(){
     return 0;
     
 }
-
+/*
 //Rezultat je 70 ( 7 * 5 * 2)
 
 
