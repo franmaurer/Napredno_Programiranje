@@ -1,5 +1,3 @@
-/*
-
 #include<stdio.h>
 int main(){
 	int a = 1;
@@ -24,11 +22,3 @@ adresa pokazivaca
 p je takoder varijabla
 npr: 0x200
 razlicito od p
-
-
-
-
-
-
-
-*/
